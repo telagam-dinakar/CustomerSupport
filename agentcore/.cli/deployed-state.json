@@ -16,19 +16,19 @@
           }
         },
         "gateways": {
-          "my-gateway": {
-            "gatewayId": "customersupport-my-gateway-2nxjpeutwu",
-            "gatewayArn": "arn:aws:bedrock-agentcore:us-east-1:620030087178:gateway/customersupport-my-gateway-2nxjpeutwu",
-            "gatewayUrl": "https://customersupport-my-gateway-2nxjpeutwu.gateway.bedrock-agentcore.us-east-1.amazonaws.com",
+          "my-gateway-secure": {
+            "gatewayId": "customersupport-my-gateway-secure-cn8fjverpk",
+            "gatewayArn": "arn:aws:bedrock-agentcore:us-east-1:620030087178:gateway/customersupport-my-gateway-secure-cn8fjverpk",
+            "gatewayUrl": "https://customersupport-my-gateway-secure-cn8fjverpk.gateway.bedrock-agentcore.us-east-1.amazonaws.com",
             "targets": {
               "WarrantyCheck": {
-                "targetId": "LVCKLORPN0"
+                "targetId": "XUMBV8PLET"
               }
             }
           }
         },
         "stackName": "AgentCore-CustomerSupport-default",
-        "deployHash": "053654c175b9b74c"
+        "deployHash": "dcaa7b38c6159c9d"
       }
     }
   }

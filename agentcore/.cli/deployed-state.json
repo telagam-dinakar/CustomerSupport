@@ -15,8 +15,20 @@
             "memoryArn": "arn:aws:bedrock-agentcore:us-east-1:620030087178:memory/CustomerSupport_SharedMemory-HM8tX0HIm7"
           }
         },
+        "gateways": {
+          "my-gateway": {
+            "gatewayId": "customersupport-my-gateway-2nxjpeutwu",
+            "gatewayArn": "arn:aws:bedrock-agentcore:us-east-1:620030087178:gateway/customersupport-my-gateway-2nxjpeutwu",
+            "gatewayUrl": "https://customersupport-my-gateway-2nxjpeutwu.gateway.bedrock-agentcore.us-east-1.amazonaws.com",
+            "targets": {
+              "WarrantyCheck": {
+                "targetId": "LVCKLORPN0"
+              }
+            }
+          }
+        },
         "stackName": "AgentCore-CustomerSupport-default",
-        "deployHash": "66b53d55dd2b34ba"
+        "deployHash": "053654c175b9b74c"
       }
     }
   }
